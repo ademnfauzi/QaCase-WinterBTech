@@ -1,5 +1,7 @@
 export const LoginObject = {
-    inputUsername: '#username',
-    inputPassword: '#password',
-    btnLogin: 'button[type="submit"]'
+    inputUsername: '//input[@id="username"]',
+    inputPassword: '//input[@id="password"]',
+    btnLogin: '//button[@id="submit-login"]',
+
+    txtDashboard: '//div[@id="dashboard"]'
 };
